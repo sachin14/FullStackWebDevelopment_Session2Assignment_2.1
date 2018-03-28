@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Setting up viewport for responsive page load -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Home</title>
+    <!-- Setting style for table for education details -->
+    <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+            </style>
     
 </head>
-<body>
-    <h1>I am a graduate with 10+ years of experience in programming</h1><br><br>
-    <a href="contact-us.html">Go Back</a>
+<!-- body starts here with background color -->
+<body style="background-color:powderblue;">
+    <h1>Sachin's Qualifications:</h1><br><br>
+    <div align="center">
+
+        <!-- This table displays the educations details -->
+            <table>
+                    <tr>
+                      <th>Degree</th>
+                      <th>School/College</th>
+                      <th>Location</th>
+                    </tr>
+                    <tr>
+                      <td>High School</td>
+                      <td>Somalwar High School</td>
+                      <td>Nagpur, India</td>
+                    </tr>
+                    <tr>
+                      <td>Engineering</td>
+                      <td>Ramdeobaba Engineering College</td>
+                      <td>Nagpur, India</td>
+                    </tr>
+                    <tr>
+                      <td>Masters</td>
+                      <td>Louisiana Tech University</td>
+                      <td>Ruston, USA</td>
+                    </tr>
+                  </table>
+    <div>
+    <br><br>
+    <!-- this is link to go back -->
+    <a href="home.html">Go Home</a>
     
 </body>
 </html>
